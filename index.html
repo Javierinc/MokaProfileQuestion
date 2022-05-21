@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Moka - Invierte fácil y seguro</title>
+</head>
+</head>
+<body>
+    <header>
+        <a id="logo"href="./index.html">MOkA</a>
+    </header>
+    <main>
+        <div id="start">
+            <h2>Para conocer tu perfil de inversor dale click a comenzar</h2>
+            <button id="start-btn" type="button">Comenzar</button>
+        </div>
+        <div id="questions" class="hidden-q">
+            <form id="question-form" action="" method="POST">
+            </form>
+            <div id="buttons">
+                <button type="button" id="previous">Anterior</button>
+                <button type="button" id="next" disabled>Siguiente</button>
+            </div>
+        </div>
+
+        <div class="modal-bg">
+            <div class="modal">
+                <div id="results">
+                    <h2 id="heading-result"></h2>
+                    <img src="" id="img-result">
+                    <p id="text-result"></p>
+                </div>
+                <a id="simulation-btn" href="./index.html">Simular inversión</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p id="agf">Administradora General de Fondos - Regulada por la CMF</p>
+        <p id="copyright">Copyright &copy; 2022 by <span id="moka">MOkA</span></p>
+    </footer>
+<script src="./js/app.js"></script>
+</body>
+</html>
